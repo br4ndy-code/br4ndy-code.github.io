@@ -11,7 +11,7 @@ header, main{
     padding-top: 1rem;
 }
 .logo{
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     text-align: center;
@@ -53,5 +53,18 @@ header, main{
 .label > p{
     text-decoration: underline;
     text-decoration-color: #FFD152;
+    text-decoration-thickness: 2px;
     font-size: 1.2rem;
+}
+.project_name > a{
+    text-decoration: none;
+    color: #FFD152;
+}
+.project_tools{
+    font-size: 0.9rem;
+    opacity: 0.4;
+}
+
+.links a > img{   
+    width: 30px;
 }
