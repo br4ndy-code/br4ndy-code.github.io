@@ -35,7 +35,8 @@ header, main{
     transform: translate(0);
     cursor:pointer;
 }
-.logo > p{
+.logo > a{
+    text-decoration: none;
     font-size: 1.5rem;
     color: #FFD152;
     font-weight: 900;
