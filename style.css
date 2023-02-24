@@ -40,6 +40,10 @@ header, main{
     color: #FFD152;
     font-weight: 900;
 }
+section{
+    display: flex;
+    justify-content: center;
+}
 .image > img{
     border-radius: 100%;
     border: 3px solid #fff;
